@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходный код">
+      <UniqueIdentifier>{1c1f0a11-1111-4a11-9111-111111111111}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{2c2f0a22-2222-4a22-9222-222222222222}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx</Extensions>
+    </Filter>
+    <Filter Include="Сторонние библиотеки">
+      <UniqueIdentifier>{3c3f0a33-3333-4a33-9333-333333333333}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Исходный код</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trapezoid.cpp">
+      <Filter>Исходный код</Filter>
+    </ClCompile>
+    <ClCompile Include="src\threads.cpp">
+      <Filter>Исходный код</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\trapezoid.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="include\threads.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include="ЗАДАНИЕ.md" />
+    <None Include="third_party\pthreads-win32\include\pthread.h">
+      <Filter>Сторонние библиотеки</Filter>
+    </None>
+    <None Include="third_party\pthreads-win32\include\sched.h">
+      <Filter>Сторонние библиотеки</Filter>
+    </None>
+    <None Include="third_party\pthreads-win32\include\semaphore.h">
+      <Filter>Сторонние библиотеки</Filter>
+    </None>
+    <None Include="third_party\pthreads-win32\lib\pthreadVCE2.lib">
+      <Filter>Сторонние библиотеки</Filter>
+    </None>
+    <None Include="third_party\pthreads-win32\bin\pthreadVCE2.dll">
+      <Filter>Сторонние библиотеки</Filter>
+    </None>
+  </ItemGroup>
+</Project>
